@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/datasources/auth_remote_datasource.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/models/auth_response_model.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/models/request/login_request_model.dart';
+import '../../data/datasources/auth_remote_datasource.dart';
+import '../../data/models/auth_response_model.dart';
+import '../../data/models/request/login_request_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'login_event.dart';

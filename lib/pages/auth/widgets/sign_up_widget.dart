@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_fic7_app_rudi_supratman/bloc/register/register_bloc.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/models/request/register_request_model.dart';
+import '../../../bloc/register/register_bloc.dart';
+import '../../../data/models/request/register_request_model.dart';
 
+import '../../../data/datasources/auth_local_datasource.dart';
 import '../../../utils/color_resources.dart';
 import '../../../utils/custom_themes.dart';
 import '../../../utils/dimensions.dart';

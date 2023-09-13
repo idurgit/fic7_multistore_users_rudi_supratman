@@ -1,4 +1,4 @@
-import 'package:flutter_fic7_app_rudi_supratman/data/models/auth_response_model.dart';
+import '../../data/models/auth_response_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthLocalDatasource {

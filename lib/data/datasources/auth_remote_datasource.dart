@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:dartz/dartz.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/models/auth_response_model.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/models/request/register_request_model.dart';
+import '../../data/datasources/auth_local_datasource.dart';
+import '../../data/models/auth_response_model.dart';
+import '../../data/models/request/register_request_model.dart';
 import 'package:http/http.dart' as http;
 import '../../common/global_variables.dart';
 import '../models/request/login_request_model.dart';

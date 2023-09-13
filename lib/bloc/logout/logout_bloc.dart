@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/datasources/auth_remote_datasource.dart';
+import '../../data/datasources/auth_remote_datasource.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'logout_event.dart';
