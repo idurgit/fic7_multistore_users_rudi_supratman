@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_fic7_app_rudi_supratman/bloc/checkout/checkout_bloc.dart';
-import 'package:flutter_fic7_app_rudi_supratman/utils/price_ext.dart';
+import '../../../bloc/checkout/checkout_bloc.dart';
+import '../../../utils/price_ext.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 import '../../../data/models/products_response_model.dart';

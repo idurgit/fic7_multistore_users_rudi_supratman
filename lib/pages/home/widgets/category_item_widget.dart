@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fic7_app_rudi_supratman/pages/product/category_products_page.dart';
+import '../../../pages/product/category_products_page.dart';
 
 import '../../../data/models/categories_response_model.dart';
 import '../../../utils/color_resources.dart';

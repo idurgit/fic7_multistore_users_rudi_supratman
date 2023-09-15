@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_fic7_app_rudi_supratman/bloc/products/products_bloc.dart';
-import 'package:flutter_fic7_app_rudi_supratman/data/models/products_response_model.dart';
+import '../../../bloc/products/products_bloc.dart';
+import '../../../data/models/products_response_model.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 import '../../utils/color_resources.dart';

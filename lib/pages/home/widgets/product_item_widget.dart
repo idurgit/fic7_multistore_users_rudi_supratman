@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fic7_app_rudi_supratman/utils/price_ext.dart';
+import '../../../utils/price_ext.dart';
 
 import '../../../data/models/products_response_model.dart';
 

@@ -1,8 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
-import 'package:flutter_fic7_app_rudi_supratman/data/models/products_response_model.dart';
-import 'package:flutter_fic7_app_rudi_supratman/utils/price_ext.dart';
+import '../../../data/models/products_response_model.dart';
+import '../../../utils/price_ext.dart';
 
 import '../../../utils/color_resources.dart';
 import '../../../utils/custom_themes.dart';
