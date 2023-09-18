@@ -7,6 +7,7 @@ import '../../../utils/custom_themes.dart';
 import '../../../utils/dimensions.dart';
 import '../../../utils/images.dart';
 import '../../base_widgets/show_custom_snakbar.dart';
+import '../../cart/cart_page.dart';
 import 'cart_bottom_sheet.dart';
 
 class BottomCartView extends StatefulWidget {
@@ -53,8 +54,8 @@ class _BottomCartViewState extends State<BottomCartView> {
               child: Stack(children: [
                 GestureDetector(
                     onTap: () {
-                      // Navigator.of(context).push(MaterialPageRoute(
-                      //     builder: (context) => const CartPage()));
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => const CartPage()));
                     },
                     child: Image.asset(Images.cartArrowDownImage,
                         color: ColorResources.getPrimary(context))),
@@ -72,6 +73,9 @@ class _BottomCartViewState extends State<BottomCartView> {
                     child: BlocBuilder<CheckoutBloc, CheckoutState>(
                       builder: (context, state) {
                         return state.map(
+                          loading: (value) {
+                            return CircularProgressIndicator();
+                          },
                           loaded: (value) {
                             int totalQty = 0;
                             value.products.forEach(

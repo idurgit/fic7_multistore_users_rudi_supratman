@@ -11,6 +11,7 @@ import '../../utils/light_themes.dart';
 
 import 'bloc/categories/categories_bloc.dart';
 import 'bloc/login/login_bloc.dart';
+import 'bloc/order/order_bloc.dart';
 import 'bloc/register/register_bloc.dart';
 
 void main() {
@@ -41,6 +42,9 @@ class MyApp extends StatelessWidget {
         ),
         BlocProvider(
           create: (context) => CheckoutBloc(),
+        ),
+        BlocProvider(
+          create: (context) => OrderBloc(),
         ),
       ],
       child: MaterialApp(
