@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../bloc/banners/banners_bloc.dart';
 import '../../../bloc/checkout/checkout_bloc.dart';
 
 import '../../bloc/logout/logout_bloc.dart';
@@ -45,6 +46,9 @@ class MyApp extends StatelessWidget {
         ),
         BlocProvider(
           create: (context) => OrderBloc(),
+        ),
+        BlocProvider(
+          create: (context) => BannersBloc(),
         ),
       ],
       child: MaterialApp(
